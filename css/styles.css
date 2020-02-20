@@ -1,0 +1,250 @@
+div {
+  border-width: 50px;
+  text-align: center;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  margin: 50px auto -30px auto;
+  color: #ffffff;
+  font-family: 'Audiowide', cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: 'Audiowide', cursive;
+  margin: 0;
+  padding: 30px 0 10px 0;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 20px 0 20px 0;
+}
+
+p {
+  margin: 10px 0 0px 0;
+  line-height: 1.5;
+  padding-bottom: 20px
+}
+
+hr {
+  margin: 0;
+}
+
+/*****************************Class styles*************************/
+.top-container {
+  background-color: #000000;
+  background-image: url("https://www.wwu.edu/planetarium/a101/wallpaper/4k_02.jpg");
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  height: 1000px;
+  width: 100%
+}
+
+.middle-container {
+  background-color: #000000;
+}
+
+.skill-row-top {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  background-image: url("https://images.unsplash.com/photo-1487715433499-93acdc0bd7c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=2314&q=80");
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.footer-link {
+  margin: 0 20px 100px 20px;
+}
+
+.copyright {
+  margin: 30px 0 20px 0;
+  font-size: .75em;
+}
+
+.dog {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  object-fit: cover;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 50px;
+}
+
+.rockstar {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+.peppers {
+  height: 400px;
+  width: auto;
+  padding-top: 40px;
+}
+
+.eggplant {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  bottom: 30px;
+}
+
+.touch {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+  object-fit: cover;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.walrus1 {
+  height: 600px;
+  width: auto;
+  position: absolute;
+  left: 100px;
+  bottom: 150px;
+  filter: invert();
+}
+
+.walrus2 {
+  height: 600px;
+  width: auto;
+  position: absolute;
+  right: 100px;
+  bottom: 150px;
+  filter: invert();
+}
+
+.phill {
+  height: 650px;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 540px;
+}
+
+.btn  {
+  margin: 50px auto 30px auto;
+  height: 300px;
+  width: auto;
+}
+
+/************************* Stars ************************/
+.stars1 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 400px;
+  height: auto;
+}
+
+.stars2 {
+  position: absolute;
+  top: 400px;
+  right: 70px;
+  width: 700px;
+  height: auto;
+}
+
+.stars3 {
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+  width: 700px;
+  height: auto;
+}
+
+.stars4 {
+  position: absolute;
+  bottom: 200px;
+  right: 120px;
+  width: 400px;
+  height: auto;
+}
+
+.stars5 {
+  position: absolute;
+  top: 70px;
+  right: 720px;
+  width: 400px;
+  height: auto;
+  z-index: 1;
+}
+
+.twinkle {
+  position: absolute;
+  right: 930px;
+  top: 540px;
+  z-index: 1;
+}
+
+/************************* Hover states ************************/
+
+.btn:hover {
+  filter: invert();
+}
+
+.phill:hover {
+  filter: hue-rotate(90deg) brightness(200%);
+  transition: 4s;
+}
+
+.walrus1:hover {
+  filter: blur(10px);
+  transition: 5s;
+}
+
+.walrus2:hover {
+  filter: blur(10px);
+  transition: 5s;
+}
+
+.eggplant:hover {
+  filter: invert();
+  transition: 2s;
+}
+
+.rockstar:hover {
+  filter: invert();
+  transition: 2s;
+}
